@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include: default
+  kafka:
+    bootstrap.servers: broker:9093
+    producer:
+      bootstrap-servers: broker:9093
+    consumer:
+      bootstrap-servers: broker:9093
