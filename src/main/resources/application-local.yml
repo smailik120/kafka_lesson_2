@@ -1,7 +1,0 @@
-spring:
-  kafka:
-    servers: localhost:9093
-    producer:
-      bootstrap-servers: localhost:9093
-    consumer:
-      bootstrap-servers: localhost:9093
